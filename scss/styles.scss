@@ -8,6 +8,17 @@
 }
 .navbar{
     transition: all 0.5s ease-in-out;
+    
+}
+@media(max-width:992px)
+{
+    #navbarNavDropdown{
+        background:rgba(var(--bs-dark-rgb));
+        border-radius: 1em;
+        padding: 1em;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin: 1em;
+    }
 }
 
 header{
